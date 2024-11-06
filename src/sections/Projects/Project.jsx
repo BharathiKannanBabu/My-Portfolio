@@ -2,7 +2,7 @@ import styles from './ProjectStyles.module.css'
 import githubAppPic from '../../assets/github-app-pic.png'
 import ProjectCard from '../../common/ProjectCard'
 import MiniEcommerceAppPic from '../../assets/mini-ecommerce-siteipic.png'
-import InstaCloneAppPic from '../../assets/Instagram-clone-pic.png'
+import chatAppPic from '../../assets/chat-app-screenShot.png'
 
 function Project() {
   return (
@@ -18,6 +18,11 @@ function Project() {
               src={MiniEcommerceAppPic} 
               link={'https://github.com/BharathiKannanBabu/Mini-Ecommerce-Website'} 
               h3={'Mini Ecommerce App'}
+            />
+            <ProjectCard 
+              src={chatAppPic} 
+              link={'https://github.com/BharathiKannanBabu/mern-chat-app'} 
+              h3={'Chat App'}
             />
         </div>
     </section>
