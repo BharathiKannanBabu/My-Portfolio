@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from "../../assets/BK's Resume3.pdf";
+import CV from "../../assets/Bharathi kannan_Full-Stack-Developer_Resume5.pdf";
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -47,7 +47,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        As a MERN stack developer, I’m skilled in JavaScript for dynamic interfaces and have built user-friendly web apps with React.js. I create scalable server-side applications using Node.js and design efficient MongoDB databases
+          As a MERN stack developer, I’m skilled in JavaScript for dynamic interfaces and have built user-friendly web apps with React.js. I create scalable server-side applications using Node.js and design efficient MongoDB databases
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
